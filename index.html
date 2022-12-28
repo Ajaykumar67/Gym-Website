@@ -7,20 +7,52 @@
     <title>Fitness Rebulic</title>
     <link rel="stylesheet" href="css/style.css" />
     <style>
-      @media (min-width: 350px) {
+      @media (max-width: 450px) {
         body {
           color: white;
           background-image: url(css/background1.jpg);
+          background-repeat: no-repeat;
+          margin: 0px;
         }
-        .topbar{
-          display:inline;
+        header{
+          display:flex;
         }
 
         #logo img {
-          width: 20px;
+          width: 25px;
+        }
+        #name p{
+          font-size: 7px;
         }
         #navbar li{
           display: inline-block;
+        }
+        #navbar li a{
+          text-decoration: none;
+          font-size: 10px;
+          color: white;
+          margin: 10px;
+        }
+        ul{
+          padding: 0px;
+          margin: 0px;
+        }
+        #navbar{
+          background-color: black;
+          height: 20px;
+          position: relative;
+          left: 8%;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        #FormBox{
+          margin-left: 10%;
+          margin-top: 5%;
+          border: 1px solid white;
+          text-align: center;
+          width: 70%;
+          border-radius: 10%;
+
         }
       }
     </style>
