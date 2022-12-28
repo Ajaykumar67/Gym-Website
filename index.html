@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Rebulic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @media (min-width: 350px) {
+        body {
+          color: white;
+          background-image: url(css/background1.jpg);
+        }
+        .topbar{
+          display:inline;
+        }
+
+        #logo img {
+          width: 20px;
+        }
+        #navbar li{
+          display: inline-block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo" class="topbar">
+        <img src="images/logo2.png" alt="Image not found" />
+      </div>
+      <div id="name" class="topbar">
+        <p>Fitness Rebulic</p>
+      </div>
+      <div id="navbar" class="topbar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us </a></li>
+          <li><a href="">Rate Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="FormBox">
+      <h2>Join the best gym in Fazilka</h2>
+      <form action="norhy.php">
+        <p>Name:<input type="text" placeholder="Your Name" /></p>
+        <p>Phone: <input type="number" placeholder="Your Phone Number" /></p>
+        <p>Height: <input type="number" placeholder="In Feets" /></p>
+        <p>Weight: <input type="number" placeholder="In Kilograms" /></p>
+        <p>I need a gym trainer. <input type="checkbox" /></p>
+        <p>
+          Gender: <input type="radio" name="gen" />Male<input
+            type="radio"
+            name="gen"
+          />Female
+        </p>
+        <input type="Submit" name="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
